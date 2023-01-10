@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-top: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+  color: rgb(47, 100, 1);
+}
+h3{
+  color: rgb(97, 203, 4);
+
+}
+.num{
+  color: rgb(62, 132, 2);
+margin: 5px;
+font-size: 36px;
+}
+td{
+  padding: 0.3rem !important;
+  text-align: center !important;
+}
+th{
+  font-size: 15px;
+}
+.win{
+  background-color: rgb(57, 246, 57);
+  border: 1px solid rgb(251, 93, 93);
+  padding: 0 10px !important;
+}
+.lose{
+  background-color: rgb(251, 93, 93);
+  border: 1px solid rgb(57, 246, 57);
+padding: 0 10px !important;
+
+
+}
+.first{
+  border-radius: 10px 0px   0px 10px;
+}
+.second{
+  border-radius: 0px 10px   10px 0px;
+
+}
+.equal{
+  background-color: rgb(251, 182, 54);
+
+  padding: 0 10px !important;
+
+}
